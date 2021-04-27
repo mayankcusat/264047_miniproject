@@ -4,17 +4,27 @@ def insertLetter(letter,pos):
     board[pos] = letter
 
 
+
+# User Input for confirmation of game play
 def take_input():
     x = input("Do you want to play again? (y/n)")
     return x
 
+
+
+#user input for next move
 def take_move():
     move = input("please select a position to enter the X between 1 to 9")
     return move
 
+
+
+
 def spaceIsFree(pos):
     return board[pos] == ' '
 
+
+# printing the board with moves intact
 def printBoard(board):
     print('   |   |   ')
     print(' ' + board[1] + ' | ' + board[2] + ' | ' + board[3])
@@ -28,12 +38,16 @@ def printBoard(board):
     print(' ' + board[7] + ' | ' + board[8] + ' | ' + board[9])
     print('   |   |   ')
 
+
+#check for any space left for next move.
 def isBoardFull(board):
     if board.count(' ') > 1:
         return False
     else:
         return True
 
+
+#check all possiblity of winning
 def IsWinner(b,l):
     return ((b[1] == l and b[2] == l and b[3] == l) or
     (b[4] == l and b[5] == l and b[6] == l) or
@@ -44,6 +58,8 @@ def IsWinner(b,l):
     (b[1] == l and b[5] == l and b[9] == l) or
     (b[3] == l and b[5] == l and b[7] == l))
 
+
+#player's move
 def playerMove():
     run = True
     while run:
@@ -62,6 +78,9 @@ def playerMove():
         except:
             print('Please type a number')
 
+
+
+#move made by the computer
 def computerMove():
     possibleMoves = [x for x , letter in enumerate(board) if letter == ' ' and x != 0  ]
     move = 0
@@ -96,12 +115,18 @@ def computerMove():
         move = selectRandom(edgesOpen)
         return move
 
+
+
+#random selection for move
 def selectRandom(li):
     import random
     ln = len(li)
     r = random.randrange(0,ln)
     return li[r]
 
+
+
+#message printing and game initiation
 def main():
     print("Welcome to the game!")
     printBoard(board)
@@ -131,6 +156,8 @@ def main():
 
     if isBoardFull(board):
         print("Tie game")
+
+
 
 while True:
     x = take_input()
