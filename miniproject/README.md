@@ -30,7 +30,7 @@
   7      8         9
 
 
-* If user selects ‘y’ :
+* If user selects â€˜yâ€™ :
 User then inputs between 1-9.
 Else:
 The program is exit.
@@ -41,14 +41,16 @@ The program is exit.
 
 
 * If the winner wins the game then :
-“you win!” is printed
+â€œyou win!â€ is printed
 Else in case of a tie:
-“Tie game”
+â€œTie gameâ€
 Else if player lost then:
-“sorry you loose”.
+â€œsorry you looseâ€.
 
 
 * So, all the best, Try your luck and play wise.
+
+![logo](https://user-images.githubusercontent.com/80501919/116712432-792ae980-a9f1-11eb-913f-0d14492321b2.png)
 
 
 
