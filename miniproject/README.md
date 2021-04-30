@@ -32,10 +32,10 @@
 
 * If user selects ‘y’ :
 
-User then inputs between 1-9.
+     User then inputs between 1-9.
 
 Else:
-The program is exit.
+     The program is exit.
 
 
 * Inputs are given until there is a winner or the game is tie.
@@ -44,15 +44,15 @@ The program is exit.
 
 * If the winner wins the game then :
 
-“you win!” is printed
+      “you win!” is printed
 
 Else in case of a tie:
 
-“Tie game”
+      “Tie game”
 
 Else if player lost then:
 
-“sorry you loose”.
+      “sorry you loose”.
 
 
 * So, all the best, Try your luck and play wise.
