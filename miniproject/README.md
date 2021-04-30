@@ -28,6 +28,11 @@
 
 
                                          7     8       9
+                                         
+                                         
+  
+The above keys are corresponding to the move the player wants to play.
+
 
 
 * If user selects ‘y’ :
