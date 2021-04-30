@@ -34,7 +34,7 @@
 
      User then inputs between 1-9.
 
-Else:
+    Else:
      The program is exit.
 
 
@@ -44,7 +44,7 @@ Else:
 
 * If the winner wins the game then :
 
-      “you win!” is printed
+    “you win!” is printed
 
 Else in case of a tie:
 
