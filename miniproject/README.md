@@ -31,6 +31,7 @@
 
 
 * If user selects ‘y’ :
+
 User then inputs between 1-9.
 
 Else:
@@ -42,12 +43,15 @@ The program is exit.
 
 
 * If the winner wins the game then :
+
 “you win!” is printed
 
 Else in case of a tie:
+
 “Tie game”
 
 Else if player lost then:
+
 “sorry you loose”.
 
 
