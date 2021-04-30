@@ -136,7 +136,7 @@ def main():
             playerMove()
             printBoard(board)
         else:
-            print("sorry you loose!")
+            print("sorry you lost!")
             break
 
         if not(IsWinner(board , 'X')):
