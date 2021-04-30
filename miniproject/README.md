@@ -47,11 +47,11 @@
 
     “you win!” is printed
 
-Else in case of a tie:
+    Else in case of a tie:
 
       “Tie game”
 
-Else if player lost then:
+    Else if player lost then:
 
       “sorry you loose”.
 
